@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dinomod:item/hard_dinosaur_leather"
+  }
+}
