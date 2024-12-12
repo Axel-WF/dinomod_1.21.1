@@ -1,5 +1,6 @@
 package com.axelwf.dinomod;
 
+import com.axelwf.dinomod.block.ModBlocks;
 import com.axelwf.dinomod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -30,6 +31,7 @@ public class DinoMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
@@ -44,6 +46,10 @@ public class DinoMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SOFT_DINOSAUR_LEATHER);
             event.accept(ModItems.HARD_DINOSAUR_LEATHER);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SOFT_DINOSAUR_LEATHER_BLOCK);
+            event.accept(ModBlocks.HARD_DINOSAUR_LEATHER_BLOCK);
         }
     }
 

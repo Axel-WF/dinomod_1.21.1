@@ -1,4 +1,7 @@
 {
   "item.dinomod.soft_dinosaur_leather": "Soft Dinosaur Leather",
-  "item.dinomod.hard_dinosaur_leather": "Hard Dinosaur Leather"
+  "item.dinomod.hard_dinosaur_leather": "Hard Dinosaur Leather",
+
+  "block.dinomod.hard_dinosaur_leather_block": "Hard Dinosaur Leather Block",
+  "block.dinomod.soft_dinosaur_leather_block": "Soft Dinosaur Leather Block"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dinomod:block/soft_dinosaur_leather_block"
+  }
+}
